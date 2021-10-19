@@ -30,6 +30,7 @@ export default {
         complete: false
       })
       this.clearTracker()
+      this.$store.commit('filterTracker')
     },
     clearTracker () {
       this.title = null
